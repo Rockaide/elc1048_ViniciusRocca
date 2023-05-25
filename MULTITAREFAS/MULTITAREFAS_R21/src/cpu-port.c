@@ -88,7 +88,7 @@ void SysTick_Handler(void)
 {	
 	 
 	 ExecutaMarcaDeTempo();    
-	 TrocaContexto();   /* para o uso como sistema preemptivo */
+	 //TrocaContexto();   /* para o uso como sistema preemptivo. Comentar para tornar cooperativo */
 }
 
 void HardFault_Handler(void)
